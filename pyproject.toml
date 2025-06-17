@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lvmeteo"
+version = "0.1.0"
+description = "A Python library for accessing Latvian hydrometeorological data from data.gov.lv"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Juris Seņņikovs"}
+]
+keywords = ["meteorology", "weather", "latvia", "data", "api"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+]
+dependencies = [
+    "pandas>=1.0.0",
+    "requests>=2.20.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov",
+    "black",
+    "flake8",
+]
+
+[project.urls]
+Homepage = "https://github.com/jsenniko/lvmeteo"
+Repository = "https://github.com/jsenniko/lvmeteo"
+Documentation = "https://github.com/jsenniko/lvmeteo"
+"Bug Tracker" = "https://github.com/jsenniko/lvmeteo/issues"
