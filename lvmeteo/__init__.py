@@ -1,7 +1,7 @@
 """
 LVMeteo - A Python library for accessing Latvian meteorological data from data.gov.lv
 
-This library provides easy access to meteorological and hydrological data 
+This library provides easy access to meteorological and hydrological data
 from the Latvian open data portal.
 """
 
