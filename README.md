@@ -34,6 +34,12 @@ This creates a `dist/lvmeteo-0.1.0.tar.gz` file. Install it with:
 pip install dist/lvmeteo-0.1.0.tar.gz
 ```
 
+### Install from GitHub:
+
+```bash
+pip install git+https://github.com/jsenniko/lvmeteo.git
+```
+
 ## Quick Start
 
 ```python
